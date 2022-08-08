@@ -1,3 +1,3 @@
 # VIN Decoder
 
-Pазвёрнутое приложение - https://vin-delta.vercel.app/
+Pазвёрнутое приложение - https://vin-decoder-ten.vercel.app/
