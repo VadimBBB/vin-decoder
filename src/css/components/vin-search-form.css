@@ -1,0 +1,42 @@
+.vin-search {
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 756px) {
+  .vin-search {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .vin-search {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.vin-search label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.vin-search__container {
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.vin-search input {
+  padding: 0.25rem 0.5rem;
+}
+
+.vin-search button {
+  background: white;
+  height: 100%;
+}
+
+.vin-search .--input-error {
+  font-size: 0.75rem;
+  color: crimson;
+}

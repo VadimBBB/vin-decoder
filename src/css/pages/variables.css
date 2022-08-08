@@ -1,0 +1,30 @@
+.variables {
+  margin-bottom: 4rem;
+}
+
+.variables__nav {
+  margin-bottom: 4rem;
+}
+
+.variables__nav input {
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background: white;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .variables {
+    display: flex;
+  }
+
+  .variables__nav {
+    width: 28rem;
+    padding-right: 1rem;
+    border-right: 1px solid white;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+}

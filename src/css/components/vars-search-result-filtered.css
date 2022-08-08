@@ -1,0 +1,21 @@
+.vars-filtered {
+  padding: 0 1rem;
+}
+
+.vars-filtered a {
+  padding: 0.5rem;
+  margin-bottom: 0.25rem;
+  border: 1px solid white;
+  transition: color 0.3s ease;
+}
+
+.vars-filtered a.--active,
+.vars-filtered a:hover {
+  background: white;
+  color: black;
+}
+
+.vars-filtered a .--entry {
+  color: forestgreen;
+  font-weight: 900;
+}

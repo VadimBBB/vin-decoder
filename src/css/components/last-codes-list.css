@@ -1,0 +1,29 @@
+.codes-list {
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .codes-list {
+    align-items: center;
+  }
+}
+
+.codes-list__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.codes-list ul {
+  border: 1px solid white;
+}
+
+.codes-list li {
+  padding: 6px 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .codes-list li {
+    cursor: pointer;
+    width: 24rem;
+  }
+}

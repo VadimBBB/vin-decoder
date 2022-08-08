@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) {
+  .variable-info__container {
+    position: sticky;
+    top: 2rem;
+  }
+}
+
+.variable-info__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
